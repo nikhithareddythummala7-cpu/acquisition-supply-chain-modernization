@@ -1,0 +1,17 @@
+{
+  "name": "acquisition-supply-chain-system",
+  "version": "1.0.0",
+  "description": "AI-Powered Acquisition & Supply Chain Modernization System",
+  "main": "server/src/server.js",
+  "scripts": {
+    "dev:server": "npm --prefix server run dev",
+    "dev:client": "npm --prefix client run dev",
+    "start:server": "npm --prefix server start",
+    "build:client": "npm --prefix client run build",
+    "seed": "npm --prefix server run seed",
+    "test": "npm --prefix server run test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
